@@ -1,0 +1,19 @@
+.navbar-bg {
+    background-color: #050709;
+}
+
+.btn-custom {
+    border-radius: 50px !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    -ms-border-radius: 50px !important;
+    -o-border-radius: 50px !important;
+    color: #FFFFFF !important;
+    background: rgb(135,80,247);
+    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(42,20,84,1) 50%, rgba(135,80,247,1) 100%);
+}
+
+.btn-custom:hover {
+    background: #FFFFFF !important;
+    color: #050709 !important;
+}
