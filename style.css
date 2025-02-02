@@ -23,3 +23,98 @@ body {
     background: #FFFFFF !important;
     color: #050709 !important;
 }
+
+/* Hero Section Styles */
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #0F0715;
+    padding-top: 5.5rem;
+    position: relative;
+    background-image: 
+    url(assets/hero-section-img/hi-bg.svg),  /* Sol ortadaki resim */
+    url(assets/hero-section-img/gradient-blur-1.png);  /* Sağ üst köşedeki resim */
+    background-position: 
+    45% 20%,  /* İlk resim: ortanın biraz solu */
+    right top;   /* İkinci resim: sağ üst */
+    background-repeat: no-repeat, no-repeat; /* Resimleri tekrar ettirme */
+}
+
+.hero-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #DDDDDD;
+    margin: 0;
+}
+
+.hero-text-1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+    background: rgb(135,80,247);
+    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(255,255,255,1) 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+}
+
+.hero-text-2 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #DDDDDD;
+    padding-right: 4.5rem;
+    padding-bottom: 2rem;
+}
+
+.btn-outline-light {
+    --bs-btn-color: #8750F7 !important;
+    --bs-btn-border-color:var(--bs-btn-color) !important;
+}
+
+.btn-size {
+    width: 45px;
+    height: 45px;
+}
+
+.photo-container {
+    position: relative;  /* İçindeki `absolute` öğeleri kontrol etmek için */
+    display: inline-block;
+    z-index: 0; /* Ebeveynin katman sırasını ayarla */
+}
+
+.photo-styles {
+    width: 441px;
+    height: 479px;
+    display: block;
+    position: relative; /* Fotoğrafın ön planda kalmasını garantilemek için */
+    z-index: 1;
+}
+
+.photo-styles-1 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    bottom: -120px;
+    left: -120px;
+    z-index: -1; /* Bu artık `photo-container` içinde çalışacak */
+    opacity: 0.9;
+}
+
+.number-custom {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70.4px;
+    color: #DDDDDD;
+}
+
+.hero-text-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DDDDDD;
+    margin: 0;
+}
+
+
