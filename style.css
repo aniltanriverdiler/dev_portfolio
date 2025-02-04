@@ -117,4 +117,139 @@ body {
     margin: 0;
 }
 
+/* My Quality Services Section Styles */
+.bg-custom {
+    background-color: #050709;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.quality-services-text {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    background: rgb(135,80,247);
+    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(255,255,255,1) 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+}
+
+.quality-services-text-1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DDDDDD;
+    margin: 0;
+    padding: 16px 300px;
+}
+ 
+.quality-services-link {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.quality-services-link:hover {
+    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(42,20,84,1) 100%);
+    color: white;
+}
+
+/* 01 yazısını beyaz yap */
+.quality-services-link:hover .link-number {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Ok ikonunu yukarı döndür */
+.quality-services-link .link-arrow-1 {
+    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
+    transition: transform 0.3s ease-in-out;
+}
+
+.quality-services-link:hover .link-arrow-1 {
+    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
+    transform: rotate(-90deg); /* Yukarı döndürme */
+    width: 20px;
+    height: 20px;
+}
+
+.quality-services-link .link-arrow-2 {
+    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
+    transition: transform 0.3s ease-in-out;
+}
+
+.quality-services-link:hover .link-arrow-2 {
+    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
+    transform: rotate(-90deg); /* Yukarı döndürme */
+    width: 20px;
+    height: 20px;
+}
+
+.quality-services-link .link-arrow-3 {
+    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
+    transition: transform 0.3s ease-in-out;
+}
+
+.quality-services-link:hover .link-arrow-3 {
+    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
+    transform: rotate(-90deg); /* Yukarı döndürme */
+    width: 20px;
+    height: 20px;
+}
+
+.quality-services-link .link-arrow-4 {
+    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
+    transition: transform 0.3s ease-in-out;
+}
+
+.quality-services-link:hover .link-arrow-4 {
+    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
+    transform: rotate(-90deg); /* Yukarı döndürme */
+    width: 20px;
+    height: 20px;
+}
+
+.link-number {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8750F7;
+}
+
+.quality-services-text-2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.quality-services-text-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DDDDDD;
+    margin: 0;
+}
+
+.link-arrow-1 {
+    margin-left: 24rem;
+}
+
+.link-arrow-2 {
+    margin-left: 28.1rem;
+}
+
+.link-arrow-3 {
+    margin-left: 26.9rem;
+}
+
+.link-arrow-4 {
+    margin-left: 23.7rem;
+}
 
