@@ -1,242 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="author" content="OnlyJS" />
     <meta name="description" content="Developer - Portfolio" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Developer - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-
- <!-- Navbar Section -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
     <header class="navbar-bg">
       <div class="container">
         <nav class="navbar navbar-expand-lg shadow-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand text-white" href="/">
-                <img src="assets/navbar-img/logo.png.png" alt="navbar-logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-               <!--  Menu Item - 1  -->
-                <ul class="navbar-nav">
-                  <li class="nav-item mx-3">
-                    <a class="nav-link active text-white" aria-current="page" href="/">mail@gerolddesign.com</a>
-                  </li>
-                  <li class="nav-item dropdown mx-3">
-                    <a class="nav-link dropdown-toggle text-white" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Home
-                    </a>
-                    <ul class="dropdown-menu bg-black">
-                      <li><a class="dropdown-item text-info" href="/">Projects</a></li>
-                      <li><a class="dropdown-item text-info" href="/">Skills</a></li>
-                      <li><a class="dropdown-item text-info" href="/">Tech Stack</a></li>
-                      <li><a class="dropdown-item text-info" href="/">Achievements</a></li>
-                      <li><a class="dropdown-item text-info" href="/">Testimonials</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item mx-3">
-                    <a class="nav-link text-white" href="/">About</a>
-                  </li>
-                  <li class="nav-item mx-3">
-                    <a class="nav-link text-white" href="/">Services</a>
-                  </li>
-                  <li class="nav-item mx-3">
-                    <a class="nav-link text-white" href="/">Portfolios</a>
-                  </li>
-                  <li class="nav-item dropdown mx-3">
-                    <a class="nav-link dropdown-toggle text-white" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Blog
-                    </a>
-                    <ul class="dropdown-menu bg-black">
-                      <li><a class="dropdown-item text-info" href="/">All Posts</a></li>
-                      <li><a class="dropdown-item text-info" href="/">Programming</a></li>
-                      <li><a class="dropdown-item text-info" href="/">Mobile Development</a></li>
-                      <li><a class="dropdown-item text-info" href="/">Tech Reviews</a></li>
-                      <li><a class="dropdown-item text-info" href="/">Career Tips</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item mx-3">
-                    <a class="nav-link text-white" href="/">Contact</a>
-                  </li>
-                </ul>
-               <!--  Menu Item - 2  -->
-               <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                   <button type="button" class="btn px-4 py-2 btn-custom fw-medium">Hire Me!</button>
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="/">
+              <img src="assets/navbar-img/logo.png.png" alt="navbar-logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <!--  Menu Item - 1  -->
+              <ul class="navbar-nav">
+                <li class="nav-item mx-3">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="/"
+                    >mail@gerolddesign.com</a
+                  >
                 </li>
-               </ul>
-              </div>
+                <li class="nav-item dropdown mx-3">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="/"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Home
+                  </a>
+                  <ul class="dropdown-menu bg-black">
+                    <li>
+                      <a class="dropdown-item text-info" href="/">Projects</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-info" href="/">Skills</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-info" href="/">Tech Stack</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-info" href="/"
+                        >Achievements</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-info" href="/"
+                        >Testimonials</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link text-white" href="/">About</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link text-white" href="/">Services</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link text-white" href="/">Portfolios</a>
+                </li>
+                <li class="nav-item dropdown mx-3">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="/"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu bg-black">
+                    <li>
+                      <a class="dropdown-item text-info" href="/">All Posts</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-info" href="/"
+                        >Programming</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-info" href="/"
+                        >Mobile Development</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-info" href="/"
+                        >Tech Reviews</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-info" href="/"
+                        >Career Tips</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link text-white" href="/">Contact</a>
+                </li>
+              </ul>
+              <!--  Menu Item - 2  -->
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <button
+                    type="button"
+                    class="btn px-4 py-2 btn-custom fw-medium"
+                  >
+                    Hire Me!
+                  </button>
+                </li>
+              </ul>
             </div>
-          </nav> 
-      </div>   
+          </div>
+        </nav>
+      </div>
     </header>
 
-   <!-- Hero Section -->
+    <!-- Hero Section -->
     <section class="hero-section">
-     <div class="container">
-      <div class="row d-flex align-items-center">
-       <!-- Hero Section Content - 1 -->
-        <div class="col-6">
-          <div class="d-flex flex-column gap-1">
-            <div>
-              <p class="hero-text">I am Gerold</p>
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <!-- Hero Section Content - 1 -->
+          <div class="col-6">
+            <div class="d-flex flex-column gap-1">
+              <div>
+                <p class="hero-text">I am Gerold</p>
+              </div>
+              <div>
+                <h1 class="hero-text-1">
+                  Web Developer + <br />
+                  UX Designer
+                </h1>
+              </div>
+              <div>
+                <p class="hero-text-2">
+                  I break down complex user experinece problems to create
+                  integritiy focussed solutions that connect billions of people.
+                </p>
+              </div>
+              <div class="d-flex flex-row align-items-center gap-4">
+                <button
+                  type="button"
+                  class="btn col-4 p-3 rounded-5 border-2 btn-outline-light fw-semibold"
+                >
+                  Download CV
+                  <i class="fa-solid fa-download ms-2"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn rounded-circle btn-size border-2 btn-outline-light d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-brands fa-twitter fs-5"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn rounded-circle btn-size border-2 btn-outline-light d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-brands fa-dribbble fs-5"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn rounded-circle btn-size border-2 btn-outline-light d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-brands fa-linkedin-in fs-5"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn rounded-circle btn-size border-2 btn-outline-light d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-brands fa-github fs-5"></i>
+                </button>
+              </div>
             </div>
-            <div>
-             <h1 class="hero-text-1">Web Developer + <br> UX Designer</h1> 
+          </div>
+          <!-- Hero Section Content - 2 -->
+          <div class="col-6">
+            <div class="ms-5 ps-5 photo-container">
+              <img
+                src="assets/hero-section-img/my-photo.png"
+                class="photo-styles"
+                alt="my-photo"
+              />
+              <img
+                src="assets/hero-section-img/gradient-blur.png"
+                class="photo-styles-1"
+                alt="gradient-blur"
+              />
             </div>
-            <div>
-              <p class="hero-text-2">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people.</p>
+          </div>
+          <!-- Hero Section Content - 3 -->
+          <div class="row pt-5 mt-5">
+            <div class="col-3">
+              <div class="d-flex flex-row align-items-center gap-3">
+                <div class="number-custom">14</div>
+                <p class="hero-text-3">
+                  Years of <br />
+                  Experience
+                </p>
+              </div>
             </div>
-            <div class="d-flex flex-row align-items-center gap-4">
-              <button type="button" class="btn col-4 p-3 rounded-5 border-2 btn-outline-light fw-semibold">
-                Download CV
-                <i class="fa-solid fa-download ms-2"></i>
-              </button>
-              <button type="button" class="btn rounded-circle btn-size border-2 btn-outline-light d-flex align-items-center justify-content-center">
-                <i class="fa-brands fa-twitter fs-5"></i>
-              </button>
-              <button type="button" class="btn rounded-circle btn-size border-2 btn-outline-light d-flex align-items-center justify-content-center">
-                <i class="fa-brands fa-dribbble fs-5"></i>
-              </button>
-              <button type="button" class="btn rounded-circle btn-size border-2 btn-outline-light d-flex align-items-center justify-content-center">
-                <i class="fa-brands fa-linkedin-in fs-5"></i>
-              </button>
-              <button type="button" class="btn rounded-circle btn-size border-2 btn-outline-light d-flex align-items-center justify-content-center">
-                <i class="fa-brands fa-github fs-5"></i>
-              </button>
+            <div class="col-3">
+              <div class="d-flex flex-row align-items-center gap-3">
+                <div class="number-custom">50+</div>
+                <p class="hero-text-3">
+                  Project <br />
+                  Completed
+                </p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="d-flex flex-row align-items-center gap-3">
+                <div class="number-custom">1.5K</div>
+                <p class="hero-text-3">
+                  Happy <br />
+                  Clients
+                </p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="d-flex flex-row align-items-center gap-3">
+                <div class="number-custom">14</div>
+                <p class="hero-text-3">
+                  Years of <br />
+                  Experience
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      <!-- Hero Section Content - 2 -->
-        <div class="col-6">
-          <div class="ms-5 ps-5 photo-container">
-              <img src="assets/hero-section-img/my-photo.png" class="photo-styles" alt="my-photo">
-              <img src="assets/hero-section-img/gradient-blur.png" class="photo-styles-1" alt="gradient-blur">
-          </div>
-        </div>      
-      <!-- Hero Section Content - 3 -->
-       <div class="row pt-5 mt-5">
-        <div class="col-3">
-          <div class="d-flex flex-row align-items-center gap-3">
-           <div class="number-custom">14</div>
-           <p class="hero-text-3">Years of <br> Experience</p>
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="d-flex flex-row align-items-center gap-3">
-            <div class="number-custom">50+</div>
-            <p class="hero-text-3">Project <br> Completed</p>
-           </div>
-        </div>
-        <div class="col-3">
-          <div class="d-flex flex-row align-items-center gap-3">
-            <div class="number-custom">1.5K</div>
-            <p class="hero-text-3">Happy <br> Clients</p>
-           </div>
-        </div>
-        <div class="col-3">
-          <div class="d-flex flex-row align-items-center gap-3">
-            <div class="number-custom">14</div>
-            <p class="hero-text-3">Years of <br> Experience</p>
-           </div>
-        </div>
-       </div>
       </div>
-     </div>
     </section>
 
     <!-- My Quality Services Section -->
-     <section class="bg-custom">
+    <section class="bg-custom">
       <div class="container">
         <div class="text-center">
           <h3 class="quality-services-text">My Quality Services</h3>
-          <p class="quality-services-text-1">We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+          <p class="quality-services-text-1">
+            We put your ideas and thus your wishes in the form of a unique web
+            project that inspires you and you customers.
+          </p>
         </div>
         <div class="pt-5">
-      <!-- My Quality Services Link - 1 -->
-        <a href="/" class="quality-services-link">
-          <div class="d-flex flex-row gap-4 align-items-center">
-            <div class="">
-             <div class="link-number">01</div> 
+          <!-- My Quality Services Link - 1 -->
+          <a href="/" class="quality-services-link">
+            <div class="d-flex flex-row gap-4 align-items-center">
+              <div class="">
+                <div class="link-number">01</div>
+              </div>
+              <div class="">
+                <h4 class="quality-services-text-2">Branding Design</h4>
+              </div>
+              <div class="">
+                <p class="quality-services-text-3">
+                  I break down complex user experinece problems to create <br />
+                  integritiy focussed solutions that connect billions of people
+                </p>
+              </div>
+              <div class="">
+                <img
+                  src="assets/my-quality-services-img/link-arrow-1.svg"
+                  class="link-arrow-1"
+                  alt="link-arrow-1"
+                />
+              </div>
             </div>
-            <div class="">
-              <h4 class="quality-services-text-2">Branding Design</h4>
+          </a>
+          <!-- My Quality Services Link - 2 -->
+          <a href="/" class="quality-services-link">
+            <div class="d-flex flex-row gap-4 align-items-center">
+              <div class="">
+                <div class="link-number">02</div>
+              </div>
+              <div class="">
+                <h4 class="quality-services-text-2">Web Design</h4>
+              </div>
+              <div class="">
+                <p class="quality-services-text-3">
+                  I break down complex user experinece problems to create <br />
+                  integritiy focussed solutions that connect billions of people
+                </p>
+              </div>
+              <div class="">
+                <img
+                  src="assets/my-quality-services-img/link-arrow-1.svg"
+                  class="link-arrow-2"
+                  alt="link-arrow-1"
+                />
+              </div>
             </div>
-            <div class="">
-              <p class="quality-services-text-3">I break down complex user experinece problems to create <br> integritiy focussed solutions that connect billions of people</p>
+          </a>
+          <!-- My Quality Services Link - 3 -->
+          <a href="/" class="quality-services-link">
+            <div class="d-flex flex-row gap-4 align-items-center">
+              <div class="">
+                <div class="link-number">03</div>
+              </div>
+              <div class="">
+                <h4 class="quality-services-text-2">UI/UX Design</h4>
+              </div>
+              <div class="">
+                <p class="quality-services-text-3">
+                  I break down complex user experinece problems to create <br />
+                  integritiy focussed solutions that connect billions of people
+                </p>
+              </div>
+              <div class="">
+                <img
+                  src="assets/my-quality-services-img/link-arrow-1.svg"
+                  class="link-arrow-3"
+                  alt="link-arrow-1"
+                />
+              </div>
             </div>
-            <div class="">
-              <img src="assets/my-quality-services-img/link-arrow-1.svg" class="link-arrow-1" alt="link-arrow-1">
+          </a>
+          <!-- My Quality Services Link - 4 -->
+          <a href="/" class="quality-services-link">
+            <div class="d-flex flex-row gap-4 align-items-center">
+              <div class="">
+                <div class="link-number">04</div>
+              </div>
+              <div class="">
+                <h4 class="quality-services-text-2">Graphics Design</h4>
+              </div>
+              <div class="">
+                <p class="quality-services-text-3">
+                  I break down complex user experinece problems to create <br />
+                  integritiy focussed solutions that connect billions of people
+                </p>
+              </div>
+              <div class="">
+                <img
+                  src="assets/my-quality-services-img/link-arrow-1.svg"
+                  class="link-arrow-4"
+                  alt="link-arrow-1"
+                />
+              </div>
             </div>
-          </div>
-        </a>
-         <!-- My Quality Services Link - 2 -->
-         <a href="/" class="quality-services-link">
-          <div class="d-flex flex-row gap-4 align-items-center">
-            <div class="">
-             <div class="link-number">02</div> 
-            </div>
-            <div class="">
-              <h4 class="quality-services-text-2">Web Design</h4>
-            </div>
-            <div class="">
-              <p class="quality-services-text-3">I break down complex user experinece problems to create <br> integritiy focussed solutions that connect billions of people</p>
-            </div>
-            <div class="">
-              <img src="assets/my-quality-services-img/link-arrow-1.svg" class="link-arrow-2" alt="link-arrow-1">
-            </div>
-          </div>
-        </a>
-         <!-- My Quality Services Link - 3 -->
-         <a href="/" class="quality-services-link">
-          <div class="d-flex flex-row gap-4 align-items-center">
-            <div class="">
-             <div class="link-number">03</div> 
-            </div>
-            <div class="">
-              <h4 class="quality-services-text-2">UI/UX Design</h4>
-            </div>
-            <div class="">
-              <p class="quality-services-text-3">I break down complex user experinece problems to create <br> integritiy focussed solutions that connect billions of people</p>
-            </div>
-            <div class="">
-              <img src="assets/my-quality-services-img/link-arrow-1.svg" class="link-arrow-3" alt="link-arrow-1">
-            </div>
-          </div>
-        </a>
-         <!-- My Quality Services Link - 4 -->
-         <a href="/" class="quality-services-link">
-          <div class="d-flex flex-row gap-4 align-items-center">
-            <div class="">
-             <div class="link-number">04</div> 
-            </div>
-            <div class="">
-              <h4 class="quality-services-text-2">Graphics Design</h4>
-            </div>
-            <div class="">
-              <p class="quality-services-text-3">I break down complex user experinece problems to create <br> integritiy focussed solutions that connect billions of people</p>
-            </div>
-            <div class="">
-              <img src="assets/my-quality-services-img/link-arrow-1.svg" class="link-arrow-4" alt="link-arrow-1">
-            </div>
-          </div>
-        </a>
+          </a>
         </div>
       </div>
-     </section>
+    </section>
 
+    <!-- My Recent Works Section -->
+    <section class="bg-custom-1">
+      <div class="container">
+        <div class="text-center">
+          <h3 class="quality-services-text">My Recent Works</h3>
+          <p class="quality-services-text-1">
+            We put your ideas and thus your wishes in the form of a unique web
+            project that inspires you and you customers.
+          </p>
+        </div>
+        <div class="d-flex flex-row justify-content-center mt-3 mb-5 gap-4 menu-bg">
+          <button
+            type="button"
+            class="btn btn-link text-decoration-none text-white rounded-5 px-4 py-3"
+          >
+            All
+          </button>
+          <button
+            type="button"
+            class="btn btn-link text-decoration-none text-white rounded-5 px-4 py-3"
+          >
+            UX/UI
+          </button>
+          <button
+            type="button"
+            class="btn btn-link text-decoration-none text-white rounded-5 px-4 py-3"
+          >
+            Branding
+          </button>
+          <button
+            type="button"
+            class="btn btn-link text-decoration-none text-white rounded-5 px-4 py-3"
+          >
+            Apps
+          </button>
+        </div>
+        <!-- My Recent Works Section Cards -->
+        <div class="d-flex justify-content-center">
+          <div class="row g-4">
+            <!-- My Recent Works Section Card - 1 -->
+            <div class="col-6">
+              <div class="p-2">
+                <div class="card card-bg rounded-4">
+                  <div
+                    class="card-body card-bg d-flex justify-content-center pt-4 pb-0 rounded-4"
+                  >
+                    <img
+                      src="assets/my-recent-works-img/card-1-img.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- My Recent Works Section Card - 2 -->
+            <div class="col-6">
+              <div class="p-2">
+                <div class="card card-bg rounded-4">
+                  <div
+                    class="card-body card-bg d-flex justify-content-center pt-4 pb-0 rounded-4"
+                  >
+                    <img
+                      src="assets/my-recent-works-img/card-2-img.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- My Recent Works Section Card - 3 -->
+            <div class="col-6">
+              <div class="p-2">
+                <div class="card card-bg rounded-4">
+                  <div
+                    class="card-body card-bg d-flex justify-content-center pt-4 pb-0 rounded-4"
+                  >
+                    <img
+                      src="assets/my-recent-works-img/card-3-img.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- My Recent Works Section Card - 4 -->
+            <div class="col-6">
+              <div class="p-2">
+                <div class="card card-bg rounded-4">
+                  <div
+                    class="card-body card-bg d-flex justify-content-center pt-4 pb-0 rounded-4"
+                  >
+                    <img
+                      src="assets/my-recent-works-img/card-4-img.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Script Section -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <!-- Script Section -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

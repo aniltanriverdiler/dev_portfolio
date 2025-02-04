@@ -253,3 +253,35 @@ body {
     margin-left: 23.7rem;
 }
 
+/* My Recent Works Section Styles */
+.btn-link:hover {
+    background: rgb(42,20,84);
+    background: linear-gradient(270deg, rgba(42,20,84,1) 0%, rgba(135,80,247,1) 100%);
+}
+
+.bg-custom-1 {
+    background-color: #0F0715;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.card-bg {
+    background-color: #140C1C !important;
+}
+
+.menu-bg {
+   display: flex;
+   background-color: #050709;
+   padding: 10px;
+   border-radius: 60px;
+   align-items: center;
+   /*Dikeydeortalama*/justify-content: center;
+   /*Yataydaortalama*/width: fit-content;
+   /*İçerikkadargenişlik*/margin: auto;
+   /*Sayfaortasındatutmakiçin*/:;
+   -webkit-border-radius: 60px;
+   -moz-border-radius: 60px;
+   -ms-border-radius: 60px;
+   -o-border-radius: 60px;
+}
+
