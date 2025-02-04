@@ -263,6 +263,10 @@ body {
     background-color: #0F0715;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    background-image: url(assets/my-recent-works-img/gradient-blur-bg.png);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card-bg {
