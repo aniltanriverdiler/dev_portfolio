@@ -24,6 +24,7 @@ body {
     color: #050709 !important;
 }
 
+
 /* Hero Section Styles */
 .hero-section {
     width: 100%;
@@ -116,6 +117,7 @@ body {
     color: #DDDDDD;
     margin: 0;
 }
+
 
 /* My Quality Services Section Styles */
 .bg-custom {
@@ -253,6 +255,7 @@ body {
     margin-left: 23.7rem;
 }
 
+
 /* My Recent Works Section Styles */
 .btn-link:hover {
     background: rgb(42,20,84);
@@ -289,3 +292,42 @@ body {
    -o-border-radius: 60px;
 }
 
+.bg-custom-2 {
+    background-color: #050709;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+/* My Experience and My Education Section Styles */
+.card-text-custom {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    background: rgb(135,80,247);
+    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(255,255,255,1) 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+}
+
+.card-heading {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8750F7;
+}
+
+.card-text-custom-1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.card-text-custom-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DDDDDD;
+}
