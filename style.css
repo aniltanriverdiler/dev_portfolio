@@ -1,333 +1,290 @@
-body {
-    font-family: "Sora", serif !important;
-}
-
-/* Home Page (Index Page) Styles */
-/* Navbar Styles */
-.navbar-bg {
-    background-color: #050709;
-}
-
-.btn-custom {
-    border-radius: 50px !important;
-    -webkit-border-radius: 50px !important;
-    -moz-border-radius: 50px !important;
-    -ms-border-radius: 50px !important;
-    -o-border-radius: 50px !important;
-    color: #FFFFFF !important;
-    background: rgb(135,80,247);
-    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(42,20,84,1) 50%, rgba(135,80,247,1) 100%);
-}
-
-.btn-custom:hover {
-    background: #FFFFFF !important;
-    color: #050709 !important;
-}
-
-
-/* Hero Section Styles */
-.hero-section {
-    width: 100%;
-    height: 100vh;
+/* My Skills Section Styles */
+.bg-custom-3 {
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    display: flex;
     background-color: #0F0715;
-    padding-top: 5.5rem;
-    position: relative;
-    background-image: 
-    url(assets/hero-section-img/hi-bg.svg),  /* Sol ortadaki resim */
-    url(assets/hero-section-img/gradient-blur-1.png);  /* Sağ üst köşedeki resim */
-    background-position: 
-    45% 20%,  /* İlk resim: ortanın biraz solu */
-    right top;   /* İkinci resim: sağ üst */
-    background-repeat: no-repeat, no-repeat; /* Resimleri tekrar ettirme */
+    padding-right: 230px;
+    padding-left: 230px;
 }
 
-.hero-text {
+.my-skills-heading {
+    font-size: 45px;
     font-weight: 700;
-    font-size: 36px;
     line-height: 54px;
-    color: #DDDDDD;
-    margin: 0;
-}
-
-.hero-text-1 {
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+    background-size: 200%;
     background: rgb(135,80,247);
-    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(135,80,247,1) 25%, rgba(255,255,255,1) 75%);
     -webkit-background-clip: text;
             background-clip: text;
     color: transparent;
 }
 
-.hero-text-2 {
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
+.img-padding {
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-out;
+}
+
+.img-padding:hover {
+    transform: translateY(-30px);
+}
+
+.my-skills-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
     color: #DDDDDD;
-    padding-right: 4.5rem;
-    padding-bottom: 2rem;
 }
 
-.btn-outline-light {
-    --bs-btn-color: #8750F7 !important;
-    --bs-btn-border-color:var(--bs-btn-color) !important;
+
+/* My Client's Stories Section Styles */
+.bg-custom-4 {
+    background-color: #050709;
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+    background-image: url('assets/my-clients-story-img/gradient-blur-2.png'); /* Resmin yolunu doğru eklediğinden emin ol */
+    background-position: left bottom; /* Sol alt köşe */
+    background-repeat: no-repeat; /* Tekrar etmesin */
+    background-size: auto; /* Orijinal boyutunda kalsın */
 }
 
-.btn-size {
-    width: 45px;
-    height: 45px;
-}
-
-.photo-container {
-    position: relative;  /* İçindeki `absolute` öğeleri kontrol etmek için */
-    display: inline-block;
-    z-index: 0; /* Ebeveynin katman sırasını ayarla */
-}
-
-.photo-styles {
-    width: 441px;
-    height: 479px;
-    display: block;
-    position: relative; /* Fotoğrafın ön planda kalmasını garantilemek için */
-    z-index: 1;
-}
-
-.photo-styles-1 {
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    bottom: -120px;
-    left: -120px;
-    z-index: -1; /* Bu artık `photo-container` içinde çalışacak */
-    opacity: 0.9;
-}
-
-.number-custom {
+.my-clients-heading {
     font-weight: 700;
-    font-size: 64px;
-    line-height: 70.4px;
-    color: #DDDDDD;
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 15px;
+    background-size: 200%;
+    background: rgb(135,80,247);
+    background: linear-gradient(90deg, rgba(135,80,247,1) 25%, rgba(255,255,255,1) 75%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
 }
 
-.hero-text-3 {
+.my-clients-text { 
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    text-align: left;
     color: #DDDDDD;
-    margin: 0;
+}
+
+.transform {
+    cursor: pointer;
+    transition: transform 0.5s ease-out;
+}
+
+.transform:hover {
+    transform: translateY(-70px);
 }
 
 
-/* My Quality Services Section Styles */
-.bg-custom {
-    background-color: #050709;
-    padding-top: 6rem;
+/* Recent Blogs Section Styles */
+.bg-custom-5 {
+    background-color: #0F0715;
+    padding-top: 7rem;
     padding-bottom: 6rem;
 }
 
-.quality-services-text {
+.recent-blogs-text {
     font-weight: 700;
     font-size: 45px;
     line-height: 54px;
     background: rgb(135,80,247);
-    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(135,80,247,1) 25%, rgba(255,255,255,1) 75%);
     -webkit-background-clip: text;
             background-clip: text;
     color: transparent;
 }
 
-.quality-services-text-1 {
+.recent-blogs-text-1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #DDDDDD;
     margin: 0;
-    padding: 16px 300px;
-}
- 
-.quality-services-link {
-    text-decoration: none;
-    display: block;
-    padding: 20px;
-    border-radius: 10px;
-    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-    position: relative;
-    overflow: hidden;
-}
-
-.quality-services-link:hover {
-    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(42,20,84,1) 100%);
-    color: white;
-}
-
-/* 01 yazısını beyaz yap */
-.quality-services-link:hover .link-number {
-    color: white;
-    transition: color 0.3s ease-in-out;
-}
-
-/* Ok ikonunu yukarı döndür */
-.quality-services-link .link-arrow-1 {
-    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
-    transition: transform 0.3s ease-in-out;
-}
-
-.quality-services-link:hover .link-arrow-1 {
-    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
-    transform: rotate(-90deg); /* Yukarı döndürme */
-    width: 20px;
-    height: 20px;
-}
-
-.quality-services-link .link-arrow-2 {
-    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
-    transition: transform 0.3s ease-in-out;
-}
-
-.quality-services-link:hover .link-arrow-2 {
-    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
-    transform: rotate(-90deg); /* Yukarı döndürme */
-    width: 20px;
-    height: 20px;
-}
-
-.quality-services-link .link-arrow-3 {
-    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
-    transition: transform 0.3s ease-in-out;
-}
-
-.quality-services-link:hover .link-arrow-3 {
-    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
-    transform: rotate(-90deg); /* Yukarı döndürme */
-    width: 20px;
-    height: 20px;
-}
-
-.quality-services-link .link-arrow-4 {
-    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
-    transition: transform 0.3s ease-in-out;
-}
-
-.quality-services-link:hover .link-arrow-4 {
-    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
-    transform: rotate(-90deg); /* Yukarı döndürme */
-    width: 20px;
-    height: 20px;
-}
-
-.link-number {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    color: #8750F7;
-}
-
-.quality-services-text-2 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    color: #FFFFFF;
-    margin: 0;
-}
-
-.quality-services-text-3 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #DDDDDD;
-    margin: 0;
-}
-
-.link-arrow-1 {
-    margin-left: 24rem;
-}
-
-.link-arrow-2 {
-    margin-left: 28.1rem;
-}
-
-.link-arrow-3 {
-    margin-left: 26.9rem;
-}
-
-.link-arrow-4 {
-    margin-left: 23.7rem;
+    padding: 5px 300px;
 }
 
 
-/* My Recent Works Section Styles */
-.btn-link:hover {
-    background: rgb(42,20,84);
-    background: linear-gradient(270deg, rgba(42,20,84,1) 0%, rgba(135,80,247,1) 100%);
-}
-
-.bg-custom-1 {
-    background-color: #0F0715;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-image: url(assets/my-recent-works-img/gradient-blur-bg.png);
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.card-bg {
-    background-color: #140C1C !important;
-}
-
-.menu-bg {
-   display: flex;
-   background-color: #050709;
-   padding: 10px;
-   border-radius: 60px;
-   align-items: center;
-   /*Dikeydeortalama*/justify-content: center;
-   /*Yataydaortalama*/width: fit-content;
-   /*İçerikkadargenişlik*/margin: auto;
-   /*Sayfaortasındatutmakiçin*/:;
-   -webkit-border-radius: 60px;
-   -moz-border-radius: 60px;
-   -ms-border-radius: 60px;
-   -o-border-radius: 60px;
-}
-
-.bg-custom-2 {
+/* Forms Section Styles */
+.bg-custom-6 {
     background-color: #050709;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
+.form-container {
+    background-color: #140C1C;
+}
 
-/* My Experience and My Education Section Styles */
-.card-text-custom {
+.form-text-1 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 54px;
     background: rgb(135,80,247);
-    background: linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(135,80,247,1) 25%, rgba(255,255,255,1) 75%);
     -webkit-background-clip: text;
             background-clip: text;
     color: transparent;
+    text-align: left;
+    margin-left: 5px;
 }
 
-.card-heading {
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 30px;
-    color: #8750F7;
+.form-text-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #DDDDDD;
+    margin-left: 5px;
 }
 
-.card-text-custom-1 {
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    color: #FFFFFF;
+.form-container {
+    margin: 50px auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card-text-custom-2 {
+.form-title {
+    margin-bottom: 25px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.input-text {
+    border: 1px solid #22272C !important;
+    border-radius: 8px !important;
+    background-color: #050709 !important;
+
+}
+
+input::placeholder {
+    color: #757575 !important;
+}
+
+.button {
+    width: 182.02px;
+    height: 55px;
+    top: 418.7px;
+    left: 2px;
+    border: none;
+    border-radius: 50px;
+    color: #ffff;
+    background: linear-gradient(90deg, #8750F7 0%, #2A1454 100%, #8750F7 100%);
+
+}
+
+.button:hover {
+    transition: 0.5s;
+    color: #b596f4;
+
+}
+
+.contact-info {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 8px;
+    width: 328.38px;
+}
+
+.contact-info i {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-text-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #DDDDDD;
+    margin-right: 40px;
+}
+
+.icon-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #DDDDDD;
+    margin: 0;
 }
+
+.icon-text-1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+
+/* Footer Section Styles */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-color: #0F0715;
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
+  
+  .footer-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    margin: 25px 10px;
+  }
+  
+  .footer-links a {
+    color: grey;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-text {
+    color: #8750f7;
+    font-weight: 300;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
