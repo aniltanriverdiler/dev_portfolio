@@ -33,12 +33,12 @@ body {
     padding-top: 5.5rem;
     position: relative;
     background-image: 
-    url(assets/hero-section-img/hi-bg.svg),  /* Sol ortadaki resim */
-    url(assets/hero-section-img/gradient-blur-1.png);  /* Sağ üst köşedeki resim */
+    url(../img/hero-section-img/hi-bg.svg),  
+    url(../img/hero-section-img/gradient-blur-1.png);  
     background-position: 
-    45% 20%,  /* İlk resim: ortanın biraz solu */
-    right top;   /* İkinci resim: sağ üst */
-    background-repeat: no-repeat, no-repeat; /* Resimleri tekrar ettirme */
+    45% 20%,  
+    right top;   
+    background-repeat: no-repeat, no-repeat; 
 }
 
 .hero-text {
@@ -80,16 +80,16 @@ body {
 }
 
 .photo-container {
-    position: relative;  /* İçindeki `absolute` öğeleri kontrol etmek için */
+    position: relative;  
     display: inline-block;
-    z-index: 0; /* Ebeveynin katman sırasını ayarla */
+    z-index: 0; 
 }
 
 .photo-styles {
     width: 441px;
     height: 479px;
     display: block;
-    position: relative; /* Fotoğrafın ön planda kalmasını garantilemek için */
+    position: relative;
     z-index: 1;
 }
 
@@ -99,7 +99,7 @@ body {
     height: 350px;
     bottom: -120px;
     left: -120px;
-    z-index: -1; /* Bu artık `photo-container` içinde çalışacak */
+    z-index: -1; 
     opacity: 0.9;
 }
 
@@ -161,57 +161,55 @@ body {
     color: white;
 }
 
-/* 01 yazısını beyaz yap */
 .quality-services-link:hover .link-number {
     color: white;
     transition: color 0.3s ease-in-out;
 }
 
-/* Ok ikonunu yukarı döndür */
 .quality-services-link .link-arrow-1 {
-    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
+    content: url("../img/my-quality-services-img/link-arrow-1.svg"); 
     transition: transform 0.3s ease-in-out;
 }
 
 .quality-services-link:hover .link-arrow-1 {
-    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
-    transform: rotate(-90deg); /* Yukarı döndürme */
+    content: url("../img/my-quality-services-img/link-arrow.svg");          
+    transform: rotate(-90deg); 
     width: 20px;
     height: 20px;
 }
 
 .quality-services-link .link-arrow-2 {
-    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
+    content: url("../img/my-quality-services-img/link-arrow-1.svg");       
     transition: transform 0.3s ease-in-out;
 }
 
 .quality-services-link:hover .link-arrow-2 {
-    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
-    transform: rotate(-90deg); /* Yukarı döndürme */
+    content: url("../img/my-quality-services-img/link-arrow.svg");      
+    transform: rotate(-90deg); 
     width: 20px;
     height: 20px;
 }
 
 .quality-services-link .link-arrow-3 {
-    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
+    content: url("../img/my-quality-services-img/link-arrow-1.svg");             
     transition: transform 0.3s ease-in-out;
 }
 
 .quality-services-link:hover .link-arrow-3 {
-    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
-    transform: rotate(-90deg); /* Yukarı döndürme */
+    content: url("../img/my-quality-services-img/link-arrow.svg");       
+    transform: rotate(-90deg); 
     width: 20px;
     height: 20px;
 }
 
 .quality-services-link .link-arrow-4 {
-    content: url("assets/my-quality-services-img/link-arrow-1.svg"); /* Varsayılan mor ikon */
+    content: url("../img/my-quality-services-img/link-arrow-1.svg");                      
     transition: transform 0.3s ease-in-out;
 }
 
 .quality-services-link:hover .link-arrow-4 {
-    content: url("assets/my-quality-services-img/link-arrow.svg"); /* Hover olduğunda beyaz ikon */
-    transform: rotate(-90deg); /* Yukarı döndürme */
+    content: url("../img/my-quality-services-img/link-arrow.svg");      
+    transform: rotate(-90deg); 
     width: 20px;
     height: 20px;
 }
@@ -266,7 +264,7 @@ body {
     background-color: #0F0715;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-image: url(assets/my-recent-works-img/gradient-blur-bg.png);
+    background-image: url(../img/my-recent-works-img/gradient-blur-bg.png);          
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -282,9 +280,9 @@ body {
    padding: 10px;
    border-radius: 60px;
    align-items: center;
-   /*Dikeydeortalama*/justify-content: center;
-   /*Yataydaortalama*/width: fit-content;
-   /*İçerikkadargenişlik*/margin: auto;
+   justify-content: center;
+   width: fit-content;
+   margin: auto;
    /*Sayfaortasındatutmakiçin*/:;
    -webkit-border-radius: 60px;
    -moz-border-radius: 60px;
